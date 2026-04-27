@@ -12,11 +12,13 @@ import Users from "./pages/Admin/Users";
 import AddProducts from "./pages/Admin/AddProducts";
 import Cart from "./pages/User/Cart";
 import Checkout from "./pages/User/Checkout";
+import AdminLogin from "./components/Admin/AdminLogin";
 
 
 const App = () => {
   return (
     <Routes>
+
       <Route element={<PublicLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -25,6 +27,8 @@ const App = () => {
         <Route path="/cart" element={<Cart />} />
         <Route path="/checkout" element={<Checkout />} />
       </Route>
+
+      <Route path="/admin/login" element={<AdminLogin />} />
 
       {/* Admin Routes */}
       <Route element={<AdminLayout />}>
