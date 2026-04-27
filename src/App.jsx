@@ -11,7 +11,8 @@ import Dashboard from "./pages/Admin/Dashboard";
 import Users from "./pages/Admin/Users";
 import AddProducts from "./pages/Admin/AddProducts";
 import Cart from "./pages/User/Cart";
-import Checkout from "./pages/User/Checkout"; // Fix: Spelling corrected
+import Checkout from "./pages/User/Checkout";
+
 
 const App = () => {
   return (
